@@ -1,0 +1,1069 @@
+.add{
+    background-color: rgb(238,238,238);
+}
+/*名称 地址 电话*/
+.add .add-name{
+    width: 100%;
+    height: 7rem;
+    background-color: white;
+    margin-bottom:.6rem ;
+    /*border-bottom: 1px solid gray;*/
+}
+/*名称*/
+.add-name span:nth-of-type(1){
+    display: block;
+    margin-left: 1rem;
+    padding-top: .4rem;
+    font-size: 1rem;
+    font-family: 黑体;
+}
+/*电话*/
+.add-name span:nth-of-type(2){
+   position: absolute;
+    right: 1rem;
+    margin-top: -4rem;
+    font-size: 1rem;
+    color: gray;
+}
+/*地址*/
+.add-name p{
+    width: 80%;
+    font-size: .7rem;
+    color: gray;
+    margin-left: 1rem;
+    margin-top: .8rem;
+}
+ /*线*/
+ .add-name .add-one{
+     width: 95%;
+     margin-left: 2%;
+     border-bottom:1px solid lightgrey ;
+}
+ .add-name .add-delete{
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-direction: row;
+         flex-direction: row;
+     line-height: 3rem;
+
+
+ }
+
+.add-delete .img1{
+    height: 2rem;
+    margin-top: .2rem;
+    margin-left: 2rem;
+
+}
+/*.add .img1.active{*/
+    /*height: 2rem;*/
+    /*margin-top: .2rem;*/
+    /*margin-left: 1rem;*/
+
+/*}*/
+
+.add-delete span{
+    color: red;
+    display: block;
+    margin-top: -.6rem;
+
+}
+.add-delete .add-it{
+    position: absolute;
+    right: 5rem;
+    margin-left: 1rem;
+
+}
+.add-delete .add-its{
+    position: absolute;
+    right: 1rem;
+
+}
+.img2{
+    height: 1.2rem;
+    margin-left: 1rem;
+
+}
+
+.address-lift{
+    width: 100%;
+    height: 3.5rem;
+    background-color:rgb(237,55,70);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+
+}
+.address-lift>span{
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: .8rem;
+}
+
+
+.person{
+    background-color: rgb(238,238,238);
+}
+/**/
+.person .person-first{
+    margin-top: .8rem;
+    height: 6rem;
+
+}
+/*图片*/
+.person-collect img{
+    width: 6rem;
+    height: 5rem;
+    margin-top: -.5rem;
+    /*border: 1px solid gray;*/
+}
+/*删除 标题*/
+.person .person-second{
+    width: 42%;
+    height: 6rem;
+    position: absolute;
+    top:.5rem;
+    left: 7.5rem;
+    /*background-color: #00a0ff;*/
+}
+/*标题*/
+.person .person-second span{
+    /*换行*/
+    white-space: normal;
+    font-size: .7rem;
+    color: rgb(51,51,51);
+    font-family:微软雅黑;
+}
+/*删除*/
+.person .person-second>div{
+    width: 50%;
+    height: 1.5rem;
+    /*background-color: red;*/
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    text-align: center;
+    font-size: .7rem;
+    color: gray;
+    border: 1px solid gray;
+}
+/*价格 num 加入购物车*/
+.person .person-thrid{
+    width: 20%;
+    height: 6rem;
+    position: absolute;
+    top:.5rem;
+    right: 0rem;
+    /*background-color: pink;*/
+    font-family: 微软雅黑;
+}
+/*价格*/
+.person .person-thrid span{
+    position: absolute;
+    right: 1rem;
+}
+/*num*/
+.person .person-thrid p{
+    position: absolute;
+    right: 1rem;
+    top:1.5rem;
+}
+/*加入购物车*/
+.person .person-thrid>div{
+    width: 100%;
+    height: 1.5rem;
+    /*background-color: red;*/
+    position: absolute;
+    right: .8rem;
+    bottom: 1rem;
+    text-align: center;
+    font-size: .8rem;
+    color: rgb(234,30,45);
+    border: 1px solid red;
+}
+
+/*删除弹出框*/
+.Order.popup-container .popup{
+    width: 20rem;
+    height: 12rem;
+    background-color: rgb(255,255,255);
+    border-radius: 3%;
+}
+.Order .popup-head{
+    height: 9rem;
+    padding: 0;
+    border: 1px solid darkgrey;
+}
+.Order .popup-title{
+    line-height: 8rem;
+    letter-spacing: .1rem;
+    /*color: gray;*/
+    font-size: 1rem;
+    font-family: 黑体;
+}
+
+.Order .popup-buttons,.Order-R .popup-buttons{
+    padding: .3rem;
+}
+.Order .popup-buttons .button,.Order-R .popup-buttons .button{
+    min-height: 3rem;
+    height: 3rem;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.popup-buttons .button:last-child{
+    color: rgb(237,55,70);
+    border-left: .1rem solid darkgrey;
+}
+
+/*导航条*/
+.home{
+    width: 100%;
+}
+.img{
+    width: 5rem;
+}
+#input{
+    border-radius: 2rem;
+    width: 90%;
+    height: 1.8rem;
+    margin-left: 1rem;
+}
+#btn{
+    margin-right: 1rem;
+}
+#btn1{
+    margin-left: 1rem;
+}
+.tab-item-active{
+    background-color: rgb(230,0,18);
+    color: white;
+
+}
+/*首页内容*/
+.it{
+    width: 100%;
+    height: 100%;
+    /*margin-top: 5rem;*/
+}
+/*调试大div间距*/
+.it>div{
+    width:47% ;
+    height: 6rem;
+    display: inline-block;
+    margin-left:.4rem;
+    margin-top: .6rem;
+    background-color: rgb(185,184,184);
+}
+.imgs{
+   width: 12rem;
+}
+/*调试图片*/
+.it img{
+    width: 8rem;
+    height:6rem ;
+    display: block;
+    margin:.2rem auto;
+}
+.it>div div{
+    width: 100%;
+    height: 4rem;
+    display: inline-block;
+}
+/*调试字体*/
+.it-first{
+    /*width:100% ;*/
+    /*height: 10rem;*/
+    background-color: rgb(255,255,255);
+    display: inline-block;
+    /*字体不换行或省略*/
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    margin-top: -.5rem;
+}
+
+.it-first p:nth-child(1){
+    margin-left: .6rem;
+    margin-top: -.3rem;
+    padding-top: 5px;
+    font-size: .8em;
+    font-family: 微软雅黑;
+}
+
+.it-first p:nth-child(2):before{
+    content: '¥';
+    font-size: 1rem;
+}
+.it-first p:nth-child(2){
+    margin-top: -.6rem;
+    margin-left: .6rem;
+    font-size: 1rem;
+    color: red;
+
+}
+/*调试*/
+.it-first .mark{
+    margin-top: -2.6rem;
+    width: 30px;
+    height: 10px;
+    border-radius: 50%;
+    float: right;
+    margin-right: .6rem;
+    background-color: rgb(230,0,18)
+}
+.it-first i{
+    color: white;
+}
+
+
+/*客服按钮*/
+html,body,.scroll{
+    -webkit-user-select:auto;
+}
+div #rong-conversation{
+    left: 0;
+}
+div#rong-widget-minbtn{
+    width:3rem;
+    height:3rem;
+}
+.rongcloud-kefuBtn .rongcloud-people{
+    display: none;
+}
+.rongcloud-kefuBtn>span{
+    display: none;
+}
+#rong-widget-minbtn{
+    background:url("../images/3.png") no-repeat  center/100%;
+}
+.rongcloud-kefuChat #header{
+    /*background: #E60012;*/
+}
+
+/*弹出框*/
+.tan{
+    height: 14rem;
+    width: 100%;
+    background-color: white
+}
+/*名称 价格 库存*/
+.tan_img{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.tan img{
+    width: 38%;
+    height: 7rem
+}
+.tan_img .san{
+    width: 60%;
+    position: absolute;
+    top:1rem;
+    right: .2rem;
+}
+.tan_img p:nth-of-type(1){
+    font-size: 1rem;
+}
+.tan_img p:nth-of-type(2){
+    font-size: 1.2rem;
+    color: red;
+    font-family: 微软雅黑;
+}
+.tan_img p:nth-of-type(3){
+    color: gray;
+    font-size: 1rem;
+
+}
+/*线*/
+.tan_img .add-line{
+    width: 96%;
+    border-bottom:1px solid lightgrey ;
+}
+/*添加数量*/
+.addGoods{
+    height: 3.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 0 1rem;
+    -ms-flex-align: center;
+        align-items: center;
+}
+ .addGoods div{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+}
+ .addGoods span{
+    font-size: 1.2rem;
+}
+ .addGoods img{
+    width: 3.5rem;
+    height: 1.8rem;
+}
+ .addGoods input{
+    width: 3.5rem;
+    text-align: center;
+}
+
+/*模态弹出框*/
+.modal{
+    /*min-width: 100%;*/
+    min-height: 0;
+    top:auto;
+    bottom: 0;
+}
+div.modal-backdrop-bg{
+    background: rgba(0,0,0,.2);
+}
+/*弹出框两个button*/
+.btn{
+    width: 100%;
+    position: absolute;
+    bottom: 0rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+.btn div{
+    width: 50%;
+    height: 3rem;
+    text-align: center;
+    line-height: 3.5rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.btn .but{
+    width: 50%;
+    background: rgb(242,127,136);
+}
+.btn .also{
+    width: 50%;
+    background: rgb(230,0,18);
+}
+.Detail{
+    background-color: #eee;
+}
+.Detail .image{
+    width: 100%;
+    height: 15rem;
+}
+.Detail .detail_good{
+    margin-left: 1.5rem;
+}
+.Detail .heard{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+}
+/*标题*/
+.Detail .heard div{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    width: 10rem;
+    height: 3rem;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    border-left: 1px solid darkgrey;
+    margin-left: 2rem;
+}
+.Detail .heard img{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-bottom: .5rem;
+}
+.Detail .detail_good p{
+    font-size: 1rem;
+}
+/*价格*/
+.Detail .detail_price{
+    height: 2rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.Detail .detail_price span{
+    color: red;
+    font-size: 1.6rem;
+}
+.Detail .detail_price del{
+    color: gray;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+/*运费*/
+.Detail .detail_sales{
+    height: 1rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin-right: 2rem;
+}
+
+
+/*数量*/
+.Detail .detail_Num{
+    background-color: white;
+    height: 3rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-align: center;
+        align-items: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    box-sizing: border-box;
+}
+.Detail .detail_or{
+    position: absolute;
+    width: 0.9rem;
+    height: 1.5rem;
+    right: 1.1rem;
+}
+.Detail .detail_for{
+    margin-top: 1rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    background-color: white;
+    height: 3rem;
+    -ms-flex-align: center;
+        align-items: center;
+    border-bottom: 1px solid #eee;
+
+}
+.Detail .detail_for div{
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    height: 100%;
+    border-right: 1px solid #eee;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    font-size: 1.2rem;
+    position: relative;
+}
+.Detail .detail_for div.active{
+    color: red;
+}
+.Detail .detail_for div.active::after{
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: .2rem;
+    background-color: red;
+    left: 10%;
+    bottom: 0;
+}
+
+
+.num{
+    background-color: rgb(238,238,238);
+}
+
+.num .num-all{
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    color: rgb(234,30,45);
+}
+.num .num-all span{
+    /*position: absolute;*/
+    width: 50%;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    margin-left: 1rem;
+}
+.num .num-all div{
+    width: 15%;
+    height: 2rem;
+    position: absolute;
+    right: 1rem;
+    top:1rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-family: "微软雅黑";
+    color: rgb(234,30,45);
+    border: 1px solid red;
+}
+.num-one{
+    width: 100%;
+    height: 2.5rem;
+    background-color: white;
+    margin-top: .6rem;
+    border-bottom: 1px solid gray;
+}
+.num-one p{
+    line-height: 2.5rem;
+    margin-left: 1rem;
+    color: grey;
+}
+
+.two{
+    width: 100%;
+    height: 3.5rem;
+    background-color: white;
+    /*margin-top: .6rem;*/
+    border-bottom: 1px solid gray;
+}
+.two span:nth-of-type(1){
+    display: block;
+    padding-top: .5rem;
+    margin-left: 1rem;
+    color:grey;
+}
+.two p{
+    margin-left: 1rem;
+    color: lightgrey;
+}
+.two .two1{
+    position: absolute;
+    bottom: 5.5rem;
+    right: 1rem;
+    color: rgb(234,30,45);
+    font-size: 1rem;
+
+}
+.cart{
+    background-color: rgb(238,238,238);
+}
+
+.cart .point{
+    width: 0.9rem;
+    height: 0.9rem;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 0 .4rem white,0 0 0 .5rem gray;
+    margin: 0 1.5rem ;
+}
+/**/
+
+.person-car .cart-tep{
+    margin-top: .5rem;
+}
+/*图片*/
+.cart-tep img{
+    width: 6rem;
+    height: 5rem;
+    margin-top: -.5rem;
+    margin-left: 1.5rem;
+    /*border: 1px solid gray;*/
+}
+/*删除 标题*/
+.cart .cart-delete{
+    width: 45%;
+    height: 6rem;
+    position: absolute;
+    top:.5rem;
+    left: 8.5rem;
+    white-space: normal;
+    font-size: .7rem;
+    /*background-color: #00a0ff;*/
+}
+/*标题*/
+.person .cart-delete span{
+    /*换行*/
+    white-space: normal;
+    font-size: .7rem;
+    color: rgb(51,51,51);
+    font-family:微软雅黑;
+}
+
+/*价格*/
+.cart-shop span{
+    width: 10%;
+    position: absolute;
+    right: 1rem;
+    top: .5rem;
+    color: red;
+    font-family:微软雅黑;
+}
+/*num*/
+.cart-shop p{
+    width: 6%;
+    position: absolute;
+    right: 1rem;
+    top:2rem;
+}
+.cart-shop i{
+    width: 6%;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+/*结算*/
+.cart-gold{
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    /*弹性盒模行*/
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center;
+    box-shadow:0 1px 5px 1px gray;
+}
+.cart-gold span:nth-of-type(1){
+     width: 6.5rem;
+    font-family: 微软雅黑;
+ }
+.cart-gold span:nth-of-type(1) span{
+    color: red;
+    font-size: 1.2rem;
+}
+.cart-gold span:nth-of-type(2){
+    width: 7.8rem;
+    color: gray;
+}
+.cart-gold>div{
+    width: 7.5rem;
+    height: 4rem;
+    background-color:rgb(237,55,70);
+    margin-right: -.4rem;
+    color: white;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+}
+.payment{
+    background: rgb(238,238,238);
+}
+.payment_shop{
+    height: 10rem;
+    background: white;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+.payment_time{
+    height: 4rem;
+    border-bottom: 1px solid gray;
+    padding-top: .8rem;
+    padding-left: .6rem;
+    /*background: red;*/
+    /*margin-top: .5rem;*/
+}
+.payment_time p{
+    margin-top: .2rem;
+}
+.payment_time span:nth-of-type(1){
+    font-size: 1rem;
+    font-family: '黑体';
+}
+.payment_time span:nth-of-type(2){
+    float: right;
+    margin-right: 1.6rem;
+}
+
+.person-All{
+    background-color: rgb(238,238,238)
+}
+/*图片*/
+.person-user{
+    height: 8rem;
+    width: 100vw;
+    margin-bottom: .1rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-align: center;
+        align-items: center;
+    background-color: white;
+}
+.person-user img{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1rem;
+    border: 1px solid gainsboro;
+}
+.person-user .person-dream{
+    margin-left: 1rem;
+}
+.person-user .person-dream h4{
+    font-weight: 700;
+}
+.person-user .person-dream p{
+    color: grey;
+}
+
+
+
+/*订单和收藏*/
+.order{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row;
+        flex-flow: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 6rem;
+    border-bottom: .8rem solid #eee;
+    background-color: white;
+}
+.order .order-line{
+    height:3rem ;
+    margin-top: 1rem;
+    border-left:1px solid grey;
+}
+.order .order-one,.order .order-two{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+        flex-flow: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.order .order-one p,.order .order-two p{
+    height: 1.4rem;
+    font-size: 1rem;
+    margin-bottom: .1rem;
+    color: gray;
+}
+.order .order-one img{
+    width: 1.2rem;
+    height: 1.6rem;
+    margin-bottom: .4rem;
+}
+.order .order-two img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: .4rem;
+}
+
+    /*购物车*/
+.person .shop{
+    height: 3rem;
+    width: 100%;
+    margin-bottom: .8rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-align: center;
+        align-items: center;
+    background-color: white;
+}
+
+.all-three span{
+    font-size: 1rem;
+}
+
+/*积分.地址.支付*/
+.shop1{
+    width:100%;
+}
+.shop1 img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+.shop1 span{
+    font-size: 1.1rem;
+    margin-left: 1.4rem;
+    color: grey;
+}
+.shop1 i{
+    position: absolute;
+    right: 1rem;
+    font-size: 1.6rem;
+    color: lightgray;
+}
+/*积分.地址.支付*/
+.person .all-three{
+    height: 9rem;
+    margin-bottom: 1rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    background-color: white;
+}
+.person .all-three>div{
+    height: 5rem;
+    width: 100%;
+    border-bottom: .1rem solid #eee;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-align: center;
+        align-items: center;
+}
+
+/*地址图标*/
+.person .add{
+    width: 1.5rem;
+    height: 1.8rem;
+}
+
+    /*推荐关注*/
+.person .follow{
+    width: 100%;
+    height: 3rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-align: center;
+        align-items: center;
+    background-color: white;
+}
+.person .follow .item-note{
+    position: absolute;
+    right: 2rem;
+    font-size: 1rem;
+}
+
+
+.its{
+    width:47% ;
+    height: 6rem;
+    display: inline-block;
+    margin-left:.4rem;
+    margin-top: .6rem;
+    background-color: rgb(185,184,184);
+}
+.its img{
+    width: 8rem;
+    height:6rem ;
+    display: block;
+    margin:.2rem auto;
+    padding-top: .5rem;
+}
+.it-one{
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+    /*font-size: 1rem;*/
+    font-family: 黑体;
+    margin-top: -.4rem;
+}
+.it-one p{
+    font-size: 1.2rem;
+}
+.it-two{
+    width: 100%;
+    height: 2rem;
+}
+.it-two>span:nth-child(1){
+    font-size: 1rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    color: red;
+}
+.it-two>span:nth-child(3){
+    width: 28px;
+    height: 28px;
+    background-color: rgb(230,0,18);
+    color: white;
+    font-size:.5rem ;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 50%;
+    float: right;
+    margin-right: .5rem;
+}
+
+
+
+.shop{
+    background-color: rgb(238,238,238);
+}
+/*加盟店内容*/
+.shop_first{
+    margin-bottom: .5rem;
+}
+.shop_first img{
+    width: 100%;
+    height: 100%;
+}
+/*名称和地址电话*/
+.shop_sconed{
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    margin-top: -.2rem;
+}
+.shop_sconed span:nth-child(1){
+    color: rgb(231,0,18);
+    display: block;
+    padding-left: 1rem;
+}
+.shop_sconed span:nth-child(2){
+    display: block;
+    margin-left: 1rem;
+    color: rgb(102,102,102);
+}
+.shop_sconed p{
+    margin-left: 1rem;
+    color: rgb(102,102,102);
+}
+
+@media all and (max-width: 480px){
+
+    .topCarouselImg{
+        height: 15rem;
+        width: 100vw;
+    }
+}
+@media all and (min-width: 480px) {
+    .topCarouselImg {
+        height: 18rem;
+        width: 100vw;
+    }
+}
+.slider-pager{
+    text-align: left;
+    margin-left: 10vw;
+}
+.slider-pager .slider-pager-page.active{
+    color: red;
+    opacity: 1;
+}
+.slider-pager .slider-pager-page{
+    color: white;
+    opacity: 1;
+}
+.topCarouselImg{
+    height: 10rem;
+    width: 100%;
+}

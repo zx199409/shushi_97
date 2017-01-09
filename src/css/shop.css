@@ -1,0 +1,34 @@
+
+
+.shop{
+    background-color: rgb(238,238,238);
+}
+/*加盟店内容*/
+.shop_first{
+    margin-bottom: .5rem;
+}
+.shop_first img{
+    width: 100%;
+    height: 100%;
+}
+/*名称和地址电话*/
+.shop_sconed{
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    margin-top: -.2rem;
+}
+.shop_sconed span:nth-child(1){
+    color: rgb(231,0,18);
+    display: block;
+    padding-left: 1rem;
+}
+.shop_sconed span:nth-child(2){
+    display: block;
+    margin-left: 1rem;
+    color: rgb(102,102,102);
+}
+.shop_sconed p{
+    margin-left: 1rem;
+    color: rgb(102,102,102);
+}

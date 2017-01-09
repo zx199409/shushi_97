@@ -1,0 +1,111 @@
+.Detail{
+    background-color: #eee;
+}
+.Detail .image{
+    width: 100%;
+    height: 15rem;
+}
+.Detail .detail_good{
+    margin-left: 1.5rem;
+}
+.Detail .heard{
+    display: flex;
+    flex-flow: row nowrap;
+}
+/*标题*/
+.Detail .heard div{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 10rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid darkgrey;
+    margin-left: 2rem;
+}
+.Detail .heard img{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-bottom: .5rem;
+}
+.Detail .detail_good p{
+    font-size: 1rem;
+}
+/*价格*/
+.Detail .detail_price{
+    height: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.Detail .detail_price span{
+    color: red;
+    font-size: 1.6rem;
+}
+.Detail .detail_price del{
+    color: gray;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+/*运费*/
+.Detail .detail_sales{
+    height: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+
+/*数量*/
+.Detail .detail_Num{
+    background-color: white;
+    height: 3rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    box-sizing: border-box;
+}
+.Detail .detail_or{
+    position: absolute;
+    width: 0.9rem;
+    height: 1.5rem;
+    right: 1.1rem;
+}
+.Detail .detail_for{
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: white;
+    height: 3rem;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+
+}
+.Detail .detail_for div{
+    flex-grow: 1;
+    height: 100%;
+    border-right: 1px solid #eee;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: relative;
+}
+.Detail .detail_for div.active{
+    color: red;
+}
+.Detail .detail_for div.active::after{
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: .2rem;
+    background-color: red;
+    left: 10%;
+    bottom: 0;
+}
+

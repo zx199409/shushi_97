@@ -1,0 +1,20 @@
+<ion-view>
+    <ion-content class="person">
+        <div ng-repeat="collect in collects" class="person-collect">
+                <ion-item class="person-first">
+                    <img ng-src="{{'http://114.112.94.166' + collect.litpic}}">
+                    <div class="person-second">
+                        <span>{{collect.title | limitTo:31}}</span>
+                        <div ng-click="goShare()">删除</div>
+                    </div>
+                    <div class="person-thrid">
+                        <span>￥{{collect.price}}</span>
+                        <p>x{{collect.num}}</p>
+                        <div>加入购物车</div>
+                    </div>
+                </ion-item>
+        </div>
+
+        <h1>collect</h1>
+    </ion-content>
+</ion-view>

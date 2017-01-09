@@ -1,0 +1,142 @@
+
+.person-All{
+    background-color: rgb(238,238,238)
+}
+/*图片*/
+.person-user{
+    height: 8rem;
+    width: 100vw;
+    margin-bottom: .1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: white;
+}
+.person-user img{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1rem;
+    border: 1px solid gainsboro;
+}
+.person-user .person-dream{
+    margin-left: 1rem;
+}
+.person-user .person-dream h4{
+    font-weight: 700;
+}
+.person-user .person-dream p{
+    color: grey;
+}
+
+
+
+/*订单和收藏*/
+.order{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    height: 6rem;
+    border-bottom: .8rem solid #eee;
+    background-color: white;
+}
+.order .order-line{
+    height:3rem ;
+    margin-top: 1rem;
+    border-left:1px solid grey;
+}
+.order .order-one,.order .order-two{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.order .order-one p,.order .order-two p{
+    height: 1.4rem;
+    font-size: 1rem;
+    margin-bottom: .1rem;
+    color: gray;
+}
+.order .order-one img{
+    width: 1.2rem;
+    height: 1.6rem;
+    margin-bottom: .4rem;
+}
+.order .order-two img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: .4rem;
+}
+
+    /*购物车*/
+.person .shop{
+    height: 3rem;
+    width: 100%;
+    margin-bottom: .8rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: white;
+}
+
+.all-three span{
+    font-size: 1rem;
+}
+
+/*积分.地址.支付*/
+.shop1{
+    width:100%;
+}
+.shop1 img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+.shop1 span{
+    font-size: 1.1rem;
+    margin-left: 1.4rem;
+    color: grey;
+}
+.shop1 i{
+    position: absolute;
+    right: 1rem;
+    font-size: 1.6rem;
+    color: lightgray;
+}
+/*积分.地址.支付*/
+.person .all-three{
+    height: 9rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: white;
+}
+.person .all-three>div{
+    height: 5rem;
+    width: 100%;
+    border-bottom: .1rem solid #eee;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+/*地址图标*/
+.person .add{
+    width: 1.5rem;
+    height: 1.8rem;
+}
+
+    /*推荐关注*/
+.person .follow{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: white;
+}
+.person .follow .item-note{
+    position: absolute;
+    right: 2rem;
+    font-size: 1rem;
+}
+

@@ -1,0 +1,35 @@
+<ion-view>
+    <ion-content class="add">
+        <div ng-repeat="add in adds">
+            <!--名称 地址 电话-->
+            <div class="add-name">
+                <span>{{add.vname}}</span>
+                <p>{{add.province + add.city + add.address}}</p>
+                <span>{{add.tel}}</span>
+                <!--线-->
+                <div class="add-one"></div>
+                <!--编辑 删除-->
+                <div class="add-delete">
+                    <div class="">
+                        <img src="images/address_chooseGray.png" ng-if="!it.state" class="img1" ng-click="doConcern($index)">
+                        <!--<img src="images/address_chooseRed.png" class="img3" ng-if="it.state" ng-click="doConcern($index)">-->
+                    </div>
+                   <span>默认地址</span>
+                    <div class="add-it">
+                        <img src="images/addressEdit.png" class="img2">&nbsp;编辑
+                    </div>
+                    <div class="add-its" ng-click="remove()">
+                        <img src="images/addressDelete.png" class="img2">&nbsp;&nbsp;删除
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <h1>address</h1>
+    </ion-content>
+
+    <ion-footer-bar class="address-lift">
+        <span ng-click="adds()">新增地址</span>
+    </ion-footer-bar>
+</ion-view>

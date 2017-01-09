@@ -1,0 +1,99 @@
+.add{
+    background-color: rgb(238,238,238);
+}
+/*名称 地址 电话*/
+.add .add-name{
+    width: 100%;
+    height: 7rem;
+    background-color: white;
+    margin-bottom:.6rem ;
+    /*border-bottom: 1px solid gray;*/
+}
+/*名称*/
+.add-name span:nth-of-type(1){
+    display: block;
+    margin-left: 1rem;
+    padding-top: .4rem;
+    font-size: 1rem;
+    font-family: 黑体;
+}
+/*电话*/
+.add-name span:nth-of-type(2){
+   position: absolute;
+    right: 1rem;
+    margin-top: -4rem;
+    font-size: 1rem;
+    color: gray;
+}
+/*地址*/
+.add-name p{
+    width: 80%;
+    font-size: .7rem;
+    color: gray;
+    margin-left: 1rem;
+    margin-top: .8rem;
+}
+ /*线*/
+ .add-name .add-one{
+     width: 95%;
+     margin-left: 2%;
+     border-bottom:1px solid lightgrey ;
+}
+ .add-name .add-delete{
+     display: flex;
+     flex-direction: row;
+     line-height: 3rem;
+
+
+ }
+
+.add-delete .img1{
+    height: 2rem;
+    margin-top: .2rem;
+    margin-left: 2rem;
+
+}
+/*.add .img1.active{*/
+    /*height: 2rem;*/
+    /*margin-top: .2rem;*/
+    /*margin-left: 1rem;*/
+
+/*}*/
+
+.add-delete span{
+    color: red;
+    display: block;
+    margin-top: -.6rem;
+
+}
+.add-delete .add-it{
+    position: absolute;
+    right: 5rem;
+    margin-left: 1rem;
+
+}
+.add-delete .add-its{
+    position: absolute;
+    right: 1rem;
+
+}
+.img2{
+    height: 1.2rem;
+    margin-left: 1rem;
+
+}
+
+.address-lift{
+    width: 100%;
+    height: 3.5rem;
+    background-color:rgb(237,55,70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.address-lift>span{
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: .8rem;
+}

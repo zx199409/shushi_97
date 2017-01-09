@@ -1,0 +1,68 @@
+.num{
+    background-color: rgb(238,238,238);
+}
+
+.num .num-all{
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    color: rgb(234,30,45);
+}
+.num .num-all span{
+    /*position: absolute;*/
+    width: 50%;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    margin-left: 1rem;
+}
+.num .num-all div{
+    width: 15%;
+    height: 2rem;
+    position: absolute;
+    right: 1rem;
+    top:1rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-family: "微软雅黑";
+    color: rgb(234,30,45);
+    border: 1px solid red;
+}
+.num-one{
+    width: 100%;
+    height: 2.5rem;
+    background-color: white;
+    margin-top: .6rem;
+    border-bottom: 1px solid gray;
+}
+.num-one p{
+    line-height: 2.5rem;
+    margin-left: 1rem;
+    color: grey;
+}
+
+.two{
+    width: 100%;
+    height: 3.5rem;
+    background-color: white;
+    /*margin-top: .6rem;*/
+    border-bottom: 1px solid gray;
+}
+.two span:nth-of-type(1){
+    display: block;
+    padding-top: .5rem;
+    margin-left: 1rem;
+    color:grey;
+}
+.two p{
+    margin-left: 1rem;
+    color: lightgrey;
+}
+.two .two1{
+    position: absolute;
+    bottom: 5.5rem;
+    right: 1rem;
+    color: rgb(234,30,45);
+    font-size: 1rem;
+
+}

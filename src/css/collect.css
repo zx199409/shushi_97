@@ -1,0 +1,116 @@
+
+.person{
+    background-color: rgb(238,238,238);
+}
+/**/
+.person .person-first{
+    margin-top: .8rem;
+    height: 6rem;
+
+}
+/*图片*/
+.person-collect img{
+    width: 6rem;
+    height: 5rem;
+    margin-top: -.5rem;
+    /*border: 1px solid gray;*/
+}
+/*删除 标题*/
+.person .person-second{
+    width: 42%;
+    height: 6rem;
+    position: absolute;
+    top:.5rem;
+    left: 7.5rem;
+    /*background-color: #00a0ff;*/
+}
+/*标题*/
+.person .person-second span{
+    /*换行*/
+    white-space: normal;
+    font-size: .7rem;
+    color: rgb(51,51,51);
+    font-family:微软雅黑;
+}
+/*删除*/
+.person .person-second>div{
+    width: 50%;
+    height: 1.5rem;
+    /*background-color: red;*/
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    text-align: center;
+    font-size: .7rem;
+    color: gray;
+    border: 1px solid gray;
+}
+/*价格 num 加入购物车*/
+.person .person-thrid{
+    width: 20%;
+    height: 6rem;
+    position: absolute;
+    top:.5rem;
+    right: 0rem;
+    /*background-color: pink;*/
+    font-family: 微软雅黑;
+}
+/*价格*/
+.person .person-thrid span{
+    position: absolute;
+    right: 1rem;
+}
+/*num*/
+.person .person-thrid p{
+    position: absolute;
+    right: 1rem;
+    top:1.5rem;
+}
+/*加入购物车*/
+.person .person-thrid>div{
+    width: 100%;
+    height: 1.5rem;
+    /*background-color: red;*/
+    position: absolute;
+    right: .8rem;
+    bottom: 1rem;
+    text-align: center;
+    font-size: .8rem;
+    color: rgb(234,30,45);
+    border: 1px solid red;
+}
+
+/*删除弹出框*/
+.Order.popup-container .popup{
+    width: 20rem;
+    height: 12rem;
+    background-color: rgb(255,255,255);
+    border-radius: 3%;
+}
+.Order .popup-head{
+    height: 9rem;
+    padding: 0;
+    border: 1px solid darkgrey;
+}
+.Order .popup-title{
+    line-height: 8rem;
+    letter-spacing: .1rem;
+    /*color: gray;*/
+    font-size: 1rem;
+    font-family: 黑体;
+}
+
+.Order .popup-buttons,.Order-R .popup-buttons{
+    padding: .3rem;
+}
+.Order .popup-buttons .button,.Order-R .popup-buttons .button{
+    min-height: 3rem;
+    height: 3rem;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.popup-buttons .button:last-child{
+    color: rgb(237,55,70);
+    border-left: .1rem solid darkgrey;
+}

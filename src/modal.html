@@ -1,0 +1,30 @@
+<ion-modal-view>
+      <div class="tan">
+          <!--图片-->
+          <div ng-repeat="it in its | limitTo:1" class="tan_img">
+                  <img ng-src="{{'http://114.112.94.166'+it.goods_introduction}}">
+              <!--名称 价格 库存-->
+              <div class="san">
+                  <p>{{it.goods_name | limitTo:21}}</p>
+                  <p>￥{{it.market_price}}/件</p>
+                  <p>库存{{it.shop_price}}件</p>
+              </div>
+              <div class="add-line"></div>
+          </div>
+          <div class="addGoods">
+              <span>数量</span>
+              <div>
+                  <img ng-click="home.changeNum('reduce')" src="images/shoppingReduce.png">
+                  <input value="{{home.goodsNum}}">
+                  <img ng-click="home.changeNum('add')" src="images/shoppingAdd.png">
+
+              </div>
+
+          </div>
+          <div class="btn">
+              <div class="but">加入购物车</div>
+              <div class="also">立即购买</div>
+          </div>
+      </div>
+
+</ion-modal-view>

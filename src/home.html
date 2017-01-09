@@ -1,0 +1,47 @@
+<ion-view>
+   <!--首页导航条-->
+
+    <ion-header-bar class="home">
+        <img src="images/1.png" class="img">
+            <label class="item item-input" id="input">
+                <input type="text" placeholder="例：大闸蟹">
+                <a class="button button-stable button-clear icon ion-ios-search" id="btn"></a>
+            </label>
+        <a class="button button-icon icon ion-navicon" id="btn1" menu-toggle="right"></a>
+    </ion-header-bar>
+
+<!--首页内容-->
+
+    <ion-content style="background-color: rgb(238,238,238)">
+        <mg-slide-box source-array="items"></mg-slide-box>
+        <!--轮播图-->
+
+        <div style="text-align: center;width: 100%;margin-top: 1rem">
+            <img src="images/2.png" class="imgs">
+        </div>
+
+        <div class="it">
+            <!--核桃图片-->
+            <div ng-repeat="it in its" >
+            <img ng-src="{{'http://114.112.94.166'+it.goods_introduction}}" ng-click="goToHomeDetail($index)" >
+                <div class="it-first">
+                    <!--名称-->
+                    <p>{{it.goods_name | limitTo:21}}...</p>
+                    <!--现价-->
+                    <p>{{it.market_price}}</p>
+
+                    <!--购物车图标-->
+                    <div class="button badge-assertive button-small mark" ng-click="openModal()">
+                        <i class="icon ion-ios-cart"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </ion-content>
+
+
+</ion-view>

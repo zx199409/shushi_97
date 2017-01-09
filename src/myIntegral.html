@@ -1,0 +1,18 @@
+<ion-view>
+    <ion-content class="num">
+        <div class="num-all">
+            <span>总计积分：300积分</span>
+            <div>兑换</div>
+        </div>
+        <div class="num-one">
+            <p>积分收入明细</p>
+        </div>
+        <div ng-repeat="integral in integrals" class="two">
+            <span>{{integral.title}}</span>
+            <span class="two1">+{{integral.integral}}</span>
+            <p>{{integral.addTime}}</p>
+
+        </div>
+        <h1>integral</h1>
+    </ion-content>
+</ion-view>
